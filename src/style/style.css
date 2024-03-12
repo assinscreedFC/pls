@@ -20,16 +20,16 @@ a{
 
 body{
 
-    background: url(../../rangement/1132145-diaporama.jpg) no-repeat fixed 50% 50%;
+    background: url(../../photo/1132145-diaporama.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
-    height: 100dvh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
    
 }
 img{
   width: 100px;
+  
   
 }
 
@@ -43,7 +43,7 @@ img{
     height: 80px;
     background-color: transparent;
     align-content: center;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -188,7 +188,7 @@ ul li:hover::after {
     align-items: flex-end;
     justify-content: center;
     background-color: #333333d3;
-    /*margin-top: 30px;*/
+   
     gap: 20px;
     width: 100%;
     padding: 10px;
@@ -303,6 +303,7 @@ body::-webkit-scrollbar-thumb {
 
 nav.active{
   margin-top: 0%;
+  height: 100vh;
   transition: all 0.5s ease-out; 
 }
 .checkboxtoggler.active{
@@ -330,7 +331,7 @@ nav.active{
   }
 
   nav{
-    margin-top: -150%;
+    margin-top: -200%;
     z-index: 111;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.20);
@@ -338,7 +339,7 @@ nav.active{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 0dvh;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -358,11 +359,7 @@ nav.active{
     font-size: 1.2rem;
   }
   
-  /* header{
-    z-index: 111;
-    position:fixed;
-    top: 0;
-  } */
+ 
 }
 
   
